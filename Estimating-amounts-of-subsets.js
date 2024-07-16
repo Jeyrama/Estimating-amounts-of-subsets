@@ -32,3 +32,5 @@ function estSubsets(arr) {
   let set_ = new Set(arr);
   return Math.pow(2, set_.size) - 1;
 }
+
+// or
